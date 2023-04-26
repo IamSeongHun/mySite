@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Register Form</title>
+</head>
+
+<body>
+    <h1>Race Register!</h1>
+    <form action="naver.com">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" id="first">
+
+            <label for="last">last Name</label>
+            <input type="text" id="last">
+        </div>
+
+        <p>Select a Race:</p>
+
+        <div>
+            <label for="fun">Fun Run 5k</label>
+            <input type="radio" name="whatRace" id="fun" value="fun">
+        </div>
+        <div>
+            <label for="half">Half Marathon</label>
+            <input type="radio" name="whatRace" id="half" value="half">
+        </div>
+        <div>
+            <label for="full">Full Marathon</label>
+            <input type="radio" name="whatRace" id="full" value="full">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>Í
+        </div>
+
+        <div>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="1">18이하</option>
+                <option value="2">18초과 30이하</option>
+                <option value="3">30초과 100이하</option>
+            </select>
+        </div>
+        <button>Register!</button>
+    </form>
+</body>
+
+</html>
